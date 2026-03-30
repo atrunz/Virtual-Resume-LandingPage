@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Trunzo | Virtual Resume</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Alex Trunzo</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-md-7">
+            <p class="eyebrow">Software Engineer • Full-Stack Developer</p>
+            <h1 class="display-4 fw-bold">Alexander Trunzo</h1>
+            <p class="lead">
+              I build full-stack, data-driven applications that solve real-world
+              problems — from e-commerce platforms with live transactions to
+              scalable backend systems.
+            </p>
+
+            <a href="#projects" class="btn btn-custom-primary me-2">
+              View Projects
+            </a>
+            <a href="#contact" class="btn btn-custom-secondary">
+              Contact Me
+            </a>
+          </div>
+
+          <div class="col-md-5 text-center mt-4 mt-md-0">
+            <img
+              src="images/AlexanderTrunzo.png"
+              alt="Alex Trunzo"
+              class="hero-img"
+            />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <p class="section-subtitle">About Me</p>
+        <h2 class="section-title">Technical foundation, entrepreneurial mindset</h2>
+
+        <div class="card p-4">
+          <p>
+            I earned my Honors B.S. in Computer Science from the University of
+            Delaware with a focus on AI & Robotics. I’m continuing to develop
+            my engineering skills through structured training and real-world projects.
+          </p>
+
+          <p>
+            I focus on building systems that actually get used — combining strong
+            backend logic, clean UI, and data-driven thinking.
+          </p>
+
+          <p>
+            I bring both technical execution and ownership — from developing
+            applications to running a business that generates real revenue.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="py-5 bg-light">
+      <div class="container">
+        <p class="section-subtitle">Experience</p>
+        <h2 class="section-title">Work that drives results</h2>
+
+        <div class="card p-4 mb-4">
+          <h5 class="timeline-role">Software Engineer</h5>
+          <p class="timeline-org">Vanylla Godzylla LLC</p>
+          <p class="timeline-date">Aug 2024 – Present</p>
+
+          <ul>
+            <li>Built full-stack e-commerce platform with live Stripe transactions</li>
+            <li>Developed REST APIs using Node.js and Express</li>
+            <li>Created responsive UI with React and Tailwind</li>
+            <li>Contributed to $35K+ revenue and 1M+ impressions</li>
+          </ul>
+        </div>
+
+        <div class="card p-4">
+          <h5 class="timeline-role">AI Trainer</h5>
+          <p class="timeline-org">Scale AI</p>
+          <p class="timeline-date">May 2024 – July 2025</p>
+
+          <ul>
+            <li>Designed structured data workflows across 50+ scenarios</li>
+            <li>Performed quantitative analysis to improve system outputs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="py-5">
+      <div class="container">
+        <p class="section-subtitle">Education</p>
+        <h2 class="section-title">Academic background</h2>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card p-4">
+              <h5>University of Delaware</h5>
+              <p class="card-subtitle">B.S. Computer Science (AI & Robotics)</p>
+              <p>3.6 GPA • Dean’s List</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card p-4">
+              <h5>Code Differently</h5>
+              <p class="card-subtitle">AI Software Engineering Program</p>
+              <p>In Progress</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-5 bg-light">
+      <div class="container">
+        <p class="section-subtitle">Projects</p>
+        <h2 class="section-title text-center mb-5">What I’ve built</h2>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 p-3">
+              <h5 class="card-title">VG E-Commerce Platform</h5>
+              <p class="project-tech">React • Node • Stripe</p>
+              <p>Full-stack system supporting real-time transactions and analytics.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 p-3">
+              <h5 class="card-title">UDeliver</h5>
+              <p class="project-tech">Mobile • Firebase</p>
+              <p>Full-stack mobile app with real-time data and user workflows.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 p-3">
+              <h5 class="card-title">ML Prediction Model</h5>
+              <p class="project-tech">Python • ML</p>
+              <p>Achieved 93% accuracy while reducing false negatives.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="py-5">
+      <div class="container">
+        <p class="section-subtitle">Skills</p>
+        <h2 class="section-title">Technical & Professional</h2>
+
+        <div class="mt-3">
+          <span class="badge skill-badge">Java</span>
+          <span class="badge skill-badge">Python</span>
+          <span class="badge skill-badge">React</span>
+          <span class="badge skill-badge">Node.js</span>
+          <span class="badge skill-badge">SQL</span>
+          <span class="badge skill-badge">Git</span>
+
+          <span class="badge skill-badge">Communication</span>
+          <span class="badge skill-badge">Teamwork</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-5 bg-light">
+      <div class="container text-center">
+        <p class="section-subtitle">Contact</p>
+        <h2 class="section-title">Let’s connect</h2>
+
+        <div class="contact-links mt-3">
+          <a href="mailto:adtrunzo@udel.edu">Email</a>
+          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+          <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center text-white py-4">
+      <p class="mb-1">Alexander Trunzo</p>
+      <p class="footer-muted">© 2026 All rights reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
